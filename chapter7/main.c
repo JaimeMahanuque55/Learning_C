@@ -198,7 +198,7 @@ int main() {
 /////////// 4. Non-tail recursion
 // A recursive function is said to be non-tail recursive if the recursive call is not the last thing done by the function. After returning back, there is some something left to evaluate.
 
-//example 1
+// example 1
 /*
 #include <stdio.h>
 
@@ -231,7 +231,7 @@ int main() {
 */
 
 // Identify whether the following programs are tail recursive or non-tail recursive
-//program 1
+// program 1
 /*
 #include <stdio.h>
 
@@ -415,7 +415,6 @@ int main()
 // fun(4) = 1 + fun(1) * fun(3) + fun(2) * fun(2) + fun(3) * fun(1) = 1 + 5 + 4 + 5 = 15
 // fun(5) = 1 + 2*[15 + 2 * 5]
 
-
 ///////////// RECURSION (SOLVED PROBLEM 5) ///////////////////
 // What will be the output of the following C program?
 /*
@@ -438,7 +437,6 @@ int main()
 // Output: 3 1 2 2 1 3 4 4 4
 
 */
-
 
 ///////////// C Programming (Rapid Fire Quiz-2)/////////////////
 // Q1:Which of the following statement is true about static functions in C?
@@ -489,99 +487,4 @@ int main()
     }
 }
 */
-// A: Hmmm... will be printed 9 times
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// A: Hmmm... will be printed 9 times on screen
